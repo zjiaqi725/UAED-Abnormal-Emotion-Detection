@@ -19,7 +19,7 @@ We use a stacking operation to transform the original 1D time series into 3D sam
 #### 4.Train and Test the Model
 We write both training and evaluation function in the main.py, execute the following command to see the training and evaluation results.
 
-python main.py
+`python main.py`
 
 ## Performance
 ### Comparison of the Receiver Operating Characteristic (ROC) curve
@@ -29,4 +29,4 @@ Task I and Task II on Pima
 <img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/results/roccurve_thyroid_task1.jpg" width="300" ><img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/results/roccurve_thyroid_task2.jpg" width="300" >  
 Task I and Task II on Thyroid 
 ### Special Thanks：
-Our work is inspired by Gong’s work in [Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder (MemAE) for Unsupervised Anomaly Detection](https://donggong1.github.io/anomdec-memae)
+The implementation of GMM is based on (https://www.anarchive-beta.com/entry/2020/11/28/210948)
