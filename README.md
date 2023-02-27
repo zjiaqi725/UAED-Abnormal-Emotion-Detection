@@ -11,11 +11,13 @@ numpy == 1.21.5
 scipy == 1.4.1  
 sklearn == 0.0  
 #### 2.Dataset  
-We evaluate the proposed model on four publicly available datasets: (1)[DREAMER](https://zenodo.org/record/546113/accessrequest) (2)[The Stress Recognition in Automobile Drivers database (DRIVEDB)](https://www.physionet.org/content/drivedb/1.0.0/) (3)[Mahnob-HCI-tagging database (MAHNOB-HCI)](https://mahnob-db.eu/hci-tagging/) (4)[Wearable Stress and Affect Detection (WESAD)](https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/). Detailed information about the datasets is summarized in the Table below.
-<img src="https://github.com/zjiaqi725/UAED-Abnormal-Emotion-Detection/blob/main/image/normal_samples.png" width="300" >  
+We evaluate the proposed model on four publicly available datasets: (1)[DREAMER](https://zenodo.org/record/546113/accessrequest) (2)[The Stress Recognition in Automobile Drivers database (DRIVEDB)](https://www.physionet.org/content/drivedb/1.0.0/) (3)[Mahnob-HCI-tagging database (MAHNOB-HCI)](https://mahnob-db.eu/hci-tagging/) (4)[Wearable Stress and Affect Detection (WESAD)](https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/). Detailed information about the datasets is summarized in the Table below.  
+
+<img src="https://github.com/zjiaqi725/UAED-Abnormal-Emotion-Detection/blob/main/image/datasets%20information.png" width="700" >   
+
 #### 3.Pre-processing  
 We only do simple data cleaning including removal of incomplete data and normalization to better understand the learning ability of UAED for feature representation.
-We use a stacking operation to transform the original 1D time series into 3D samples, and the visualization from DREAMER is presented as follow.
+We use a stacking operation to transform the original 1D time series into 3D samples, and the visualization from DREAMER is presented as follow.  
 
 <img src="https://github.com/zjiaqi725/UAED-Abnormal-Emotion-Detection/blob/main/image/normal_samples.png" width="300" >  
 <img src="https://github.com/zjiaqi725/UAED-Abnormal-Emotion-Detection/blob/main/image/abnormal_samples.png" width="300" >  
